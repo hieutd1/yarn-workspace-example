@@ -1,0 +1,16 @@
+{
+  "name": "monorepo",
+  "version": "1.0.0",
+  "license": "MIT",
+  "private": true,
+  "workspaces": [
+    "libs/*"
+  ],
+  "dependencies": {
+  },
+  "scripts": {
+    "run-dev": "ts-node libs/main/main.ts",
+    "run": "node libs/main/dist/main.js",
+    "build": "yarn workspaces run build"
+  }
+}

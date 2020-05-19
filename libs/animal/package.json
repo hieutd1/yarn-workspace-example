@@ -1,0 +1,17 @@
+{
+  "name": "@mono/animal",
+  "version": "1.0.0",
+  "main": "dist/index.js",
+  "files": ["dist/*.js"],
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc"
+  },
+  "dependencies": {
+    "moment": "^2.25.3"
+  },
+  "devDependencies": {
+    "@types/node": "^14.0.1",
+    "typescript": "^3.9.2"
+  }
+}
